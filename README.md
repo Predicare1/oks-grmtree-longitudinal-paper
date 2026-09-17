@@ -1,5 +1,7 @@
 # GRMTree for Longitudinal Measurement Invariance in PROMs
 
+[![DOI](https://zenodo.org/badge/1373758225.svg)](https://doi.org/10.5281/zenodo.22803364)
+
 Reproducibility bundle for the manuscript:
 
 **"Tree-based item response theory model for assessing longitudinal measurement invariance in patient-reported outcome measures"**
