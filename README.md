@@ -1,6 +1,10 @@
 # GRMTree for Longitudinal Measurement Invariance in PROMs
 
+<!-- badges: start -->
+
 [![DOI](https://zenodo.org/badge/1373758225.svg)](https://doi.org/10.5281/zenodo.22803364)
+
+<!-- badges: end -->
 
 Reproducibility bundle for the manuscript:
 
