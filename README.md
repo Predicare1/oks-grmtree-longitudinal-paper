@@ -31,6 +31,7 @@ This repository contains R code to reproduce the simulation study and the empiri
 └── 06_oks_analysis.R          # Empirical OKS analysis (GRMTree + LRT)
 ├── sim_supp_null/            # Null simulation: change in latent mean or variance
 └── sim_supp_null_B_lrt/      # LRT rerun for the variance conditions (variance freely estimated)
+└── sim_small_dif/            # Power for small non-invariance (Delta = 0.25)
 ```
 
 ## Requirements
