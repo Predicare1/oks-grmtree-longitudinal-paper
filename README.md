@@ -89,6 +89,16 @@ Rscript scripts/sim_supp_null_B_lrt_run.R 17     # task IDs 17 to 32
 
 The reported results are in `supplementary_null_results.csv` and `B_rerun_lrt_freevar.csv`.
 
+## Supplementary small non-invariance simulation (Supplementary Table A8)
+
+Power of GRMTree and the LRT for small non-invariance (Δ = 0.25), with no change in the latent trait distribution. Non-uniform, uniform, and both; 6 and 12 items; N = 200, 500, 750, 1,500; ρ = 0.6; 500 replications per condition. All other settings match the main simulation.
+
+Run on a computing cluster, one job per condition, with seed `3026 + task ID`. Any condition can be run locally from inside `supplementary/sim_small_dif/`:
+
+    Rscript scripts/sim_small_dif_run.R 9     # task IDs 1 to 24
+
+Results are in `sim_small_dif/results/small_dif_results.csv`.
+
 ## Empirical OKS analysis
 
 Script `06_oks_analysis.R` assumes access to the cleaned OKS dataset (`cleaned_oks_data.xlsx`), which contains patient responses to the 12 OKS items at pre- and 1-year post-total-knee-arthroplasty, together with patient demographics. This dataset cannot be shared publicly due to data-use restrictions of the Winnipeg Regional Health Authority Joint Replacement Registry. Investigators seeking access should contact the registry directly.
